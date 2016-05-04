@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA41AF621CD8911C006FBAB3 /* Utilisateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41AF611CD8911C006FBAB3 /* Utilisateur.swift */; };
+		BA41AF661CD897A7006FBAB3 /* Localisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41AF651CD897A7006FBAB3 /* Localisation.swift */; };
+		BA41AF6A1CD897DB006FBAB3 /* Amis.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41AF691CD897DB006FBAB3 /* Amis.swift */; };
 		BAE00BD11C943B060016BC78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE00BD01C943B060016BC78 /* AppDelegate.swift */; };
 		BAE00BD31C943B060016BC78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE00BD21C943B060016BC78 /* ViewController.swift */; };
 		BAE00BD61C943B060016BC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE00BD41C943B060016BC78 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA41AF611CD8911C006FBAB3 /* Utilisateur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilisateur.swift; sourceTree = "<group>"; };
+		BA41AF651CD897A7006FBAB3 /* Localisation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localisation.swift; sourceTree = "<group>"; };
+		BA41AF691CD897DB006FBAB3 /* Amis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amis.swift; sourceTree = "<group>"; };
 		BAE00BCD1C943B050016BC78 /* LocateYourFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateYourFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE00BD01C943B060016BC78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAE00BD21C943B060016BC78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +130,9 @@
 				BAE00BDC1C943B060016BC78 /* LaunchScreen.storyboard */,
 				BAE00BDF1C943B060016BC78 /* Info.plist */,
 				BAE00BD71C943B060016BC78 /* LocateYourFriend.xcdatamodeld */,
+				BA41AF611CD8911C006FBAB3 /* Utilisateur.swift */,
+				BA41AF651CD897A7006FBAB3 /* Localisation.swift */,
+				BA41AF691CD897DB006FBAB3 /* Amis.swift */,
 			);
 			path = LocateYourFriend;
 			sourceTree = "<group>";
@@ -288,10 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAE00C8F1C9556A30016BC78 /* RegisterTableViewController.swift in Sources */,
+				BA41AF661CD897A7006FBAB3 /* Localisation.swift in Sources */,
 				BAE00BD31C943B060016BC78 /* ViewController.swift in Sources */,
 				BAE00BD11C943B060016BC78 /* AppDelegate.swift in Sources */,
 				BAE00C981C9562BE0016BC78 /* SWRevealViewController.m in Sources */,
 				BAE00BD91C943B060016BC78 /* LocateYourFriend.xcdatamodeld in Sources */,
+				BA41AF6A1CD897DB006FBAB3 /* Amis.swift in Sources */,
+				BA41AF621CD8911C006FBAB3 /* Utilisateur.swift in Sources */,
 				BAE00C021C943C1B0016BC78 /* MapViewController.swift in Sources */,
 				BAE00C871C944A000016BC78 /* LoginTableViewController.swift in Sources */,
 			);

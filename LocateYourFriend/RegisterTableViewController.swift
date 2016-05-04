@@ -98,12 +98,12 @@ class RegisterTableViewController: UITableViewController {
             
             // On vérifie qu'on recoit une reponse et qu'on se connecte bien au serveur
             
-         /*   guard let realResponse = response as? NSHTTPURLResponse where
+            guard let realResponse = response as? NSHTTPURLResponse where
                 
                 realResponse.statusCode == 200 else {
                     print("Ce n'est pas une réponse 200 -> Connexion au serveur ECHOUEE")
                     return
-            }*/
+            }
             
             
             
@@ -114,6 +114,9 @@ class RegisterTableViewController: UITableViewController {
                 
                 
                 print("le POST: " + postString)
+                
+              //  Utilisateur.singleton.configureUtilisateur()
+                
                 
                 
                 if(postString != "{Inscription ok}"){

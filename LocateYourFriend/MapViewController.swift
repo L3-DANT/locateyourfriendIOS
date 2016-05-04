@@ -20,15 +20,15 @@ class MapViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDe
         super.viewDidLoad()
         
         //On récupère la valeur de la clé isUserLogin pour savoir si l'utilisateur est connecté
-        let isUserLoggedIn = NSUserDefaults.standardUserDefaults().boolForKey("isUserLogin")
+      //  let isUserLoggedIn = NSUserDefaults.standardUserDefaults().boolForKey("isUserLogin")
         
         //S'il n'est pas connecté, on le redirige vers la page de connexion
         
-        if !isUserLoggedIn
+       /* if !isUserLoggedIn
         {
             self.performSegueWithIdentifier("loginView", sender: self)
-        }
-        
+        }*/
+    
         // Pour la map
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
